@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NodOne releases manifest",
+  "type": "object",
+  "required": ["releases", "latest"],
+  "properties": {
+    "latest": { "type": ["string", "null"], "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "releases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version", "released_at", "download_url", "filename", "sha256", "notes"],
+        "properties": {
+          "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+          "released_at": { "type": "string", "format": "date-time" },
+          "download_url": { "type": "string", "format": "uri" },
+          "filename": { "type": "string", "pattern": "^NodOne-Setup-v\\d+\\.\\d+\\.\\d+\\.exe$" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "notes": { "type": "string", "minLength": 1 },
+          "min_supported_version": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}
