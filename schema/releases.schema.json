@@ -17,7 +17,7 @@
           "filename": { "type": "string", "pattern": "^NodOne-Setup-v\\d+\\.\\d+\\.\\d+\\.exe$" },
           "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
           "notes": { "type": "string", "minLength": 1 },
-          "min_supported_version": { "type": ["string", "null"] }
+          "min_supported_version": { "type": ["string", "null"], "pattern": "^\\d+\\.\\d+\\.\\d+$" }
         }
       }
     }
