@@ -1,23 +1,14 @@
 {
   "releases": [
     {
-      "version": "0.1.1",
-      "released_at": "2026-05-07T01:30:00Z",
-      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.1/NodOne-Setup-v0.1.1.exe",
-      "filename": "NodOne-Setup-v0.1.1.exe",
-      "sha256": "5a90e9a4f2ccf73fa9d9695be2a44334a0523a7441af93a4f99cd8eeb19704e5",
-      "notes": "Auto-update smoke release — verifies the 0.1.0 → 0.1.1 update flow.",
-      "min_supported_version": null
-    },
-    {
-      "version": "0.1.0",
-      "released_at": "2026-05-07T00:00:00Z",
-      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.0/NodOne-Setup-v0.1.0.exe",
-      "filename": "NodOne-Setup-v0.1.0.exe",
-      "sha256": "3ebd616f0c3de4d004b2c085e11407ddacb29c2075b9a97230b21013a1d734fe",
-      "notes": "Initial release. Workspace foundation, public events workflow, document engine, auto-update infrastructure.",
+      "version": "0.1.2",
+      "released_at": "2026-05-07T02:31:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.2/NodOne-Setup-v0.1.2.exe",
+      "filename": "NodOne-Setup-v0.1.2.exe",
+      "sha256": "da0a4e7a0256e5ab949e9921ebca8f80107eec31d50885295b733cdef5b1d32a",
+      "notes": "Replaces broken 0.1.0/0.1.1. Fixes: wizard-image squash, alembic chain hole that prevented first-launch migration, end-to-end SHA-256 verification of update downloads, SPA fallback for deep-link reloads, audit-preserving forced template delete, restored window.nodone bridge handlers, contextual double-confirm wording. New: event document templates seeded by data migration. Infrastructure release; UI polish before first official user-facing v1.",
       "min_supported_version": null
     }
   ],
-  "latest": "0.1.1"
+  "latest": "0.1.2"
 }
