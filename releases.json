@@ -1,14 +1,14 @@
 {
   "releases": [
     {
-      "version": "0.1.2",
-      "released_at": "2026-05-07T02:31:00Z",
-      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.2/NodOne-Setup-v0.1.2.exe",
-      "filename": "NodOne-Setup-v0.1.2.exe",
-      "sha256": "da0a4e7a0256e5ab949e9921ebca8f80107eec31d50885295b733cdef5b1d32a",
-      "notes": "Replaces broken 0.1.0/0.1.1. Fixes: wizard-image squash, alembic chain hole that prevented first-launch migration, end-to-end SHA-256 verification of update downloads, SPA fallback for deep-link reloads, audit-preserving forced template delete, restored window.nodone bridge handlers, contextual double-confirm wording. New: event document templates seeded by data migration. Infrastructure release; UI polish before first official user-facing v1.",
+      "version": "0.1.3",
+      "released_at": "2026-05-07T03:15:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.3/NodOne-Setup-v0.1.3.exe",
+      "filename": "NodOne-Setup-v0.1.3.exe",
+      "sha256": "b419b378e91d313a8e5de4cbb2fad13e20eed4482c6902e240dda07abfc61a71",
+      "notes": "Post-Opus-audit hardening pass on top of 0.1.2. Alembic replay-safety guard, reconcile_storage removes underlying files for stale reserved artifacts, upload streams chunks instead of buffering 100 MB, double-confirm covers more destructive verbs, UpdaterProvider cleanup defends against native side replacing window.nodone mid-flight. Infrastructure release; UI polish before first official user-facing v1.",
       "min_supported_version": null
     }
   ],
-  "latest": "0.1.2"
+  "latest": "0.1.3"
 }
