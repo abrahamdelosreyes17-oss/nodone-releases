@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.1.1",
+      "released_at": "2026-05-07T01:30:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.1/NodOne-Setup-v0.1.1.exe",
+      "filename": "NodOne-Setup-v0.1.1.exe",
+      "sha256": "5a90e9a4f2ccf73fa9d9695be2a44334a0523a7441af93a4f99cd8eeb19704e5",
+      "notes": "Auto-update smoke release — verifies the 0.1.0 → 0.1.1 update flow.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.1.0",
       "released_at": "2026-05-07T00:00:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.0/NodOne-Setup-v0.1.0.exe",
@@ -10,5 +19,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.1.0"
+  "latest": "0.1.1"
 }
