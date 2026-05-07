@@ -1,1 +1,14 @@
-{ "releases": [], "latest": null }
+{
+  "releases": [
+    {
+      "version": "0.1.0",
+      "released_at": "2026-05-07T00:00:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.0/NodOne-Setup-v0.1.0.exe",
+      "filename": "NodOne-Setup-v0.1.0.exe",
+      "sha256": "3ebd616f0c3de4d004b2c085e11407ddacb29c2075b9a97230b21013a1d734fe",
+      "notes": "Initial release. Workspace foundation, public events workflow, document engine, auto-update infrastructure.",
+      "min_supported_version": null
+    }
+  ],
+  "latest": "0.1.0"
+}
