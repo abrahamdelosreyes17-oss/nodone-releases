@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.5.0",
+      "released_at": "2026-05-07T00:00:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.5.0/NodOne-Setup-v0.5.0.exe",
+      "filename": "NodOne-Setup-v0.5.0.exe",
+      "sha256": "06db4cdac8d2ff3de91d346faa5d04a732f525b816fae1b6cd598c873f379f4c",
+      "notes": "Flat 2D logo across all surfaces (sidebar tile, favicon, .ico, apple-touch-icon) — matches brand reference. Version display added to Preferences page (About section). Auto-update test target — install over 0.1.4 to verify the upgrade flow.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.1.4",
       "released_at": "2026-05-07T00:00:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.4/NodOne-Setup-v0.1.4.exe",
@@ -10,5 +19,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.1.4"
+  "latest": "0.5.0"
 }
