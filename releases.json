@@ -1,14 +1,14 @@
 {
   "releases": [
     {
-      "version": "0.1.3",
-      "released_at": "2026-05-07T03:15:00Z",
-      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.3/NodOne-Setup-v0.1.3.exe",
-      "filename": "NodOne-Setup-v0.1.3.exe",
-      "sha256": "b419b378e91d313a8e5de4cbb2fad13e20eed4482c6902e240dda07abfc61a71",
-      "notes": "Post-Opus-audit hardening pass on top of 0.1.2. Alembic replay-safety guard, reconcile_storage removes underlying files for stale reserved artifacts, upload streams chunks instead of buffering 100 MB, double-confirm covers more destructive verbs, UpdaterProvider cleanup defends against native side replacing window.nodone mid-flight. Infrastructure release; UI polish before first official user-facing v1.",
+      "version": "0.1.4",
+      "released_at": "2026-05-07T00:00:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.1.4/NodOne-Setup-v0.1.4.exe",
+      "filename": "NodOne-Setup-v0.1.4.exe",
+      "sha256": "93a93f29a4d68d56f7cb955e57b358bf6a9fe8813def3cb448de9add642d533b",
+      "notes": "Critical blank-page fix: null deref in confirm.jsx (state.confirmLabel accessed before first confirm dialog open crashed React tree). Flat installer logo: solid #554AB2 background replaces gradient; 4x supersampled render eliminates pixelation on tetrahedron mark.",
       "min_supported_version": null
     }
   ],
-  "latest": "0.1.3"
+  "latest": "0.1.4"
 }
