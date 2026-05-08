@@ -1,12 +1,21 @@
 {
   "releases": [
     {
+      "version": "0.7.0",
+      "released_at": "2026-05-08T08:49:14Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.7.0/NodOne-Setup-v0.7.0.exe",
+      "filename": "NodOne-Setup-v0.7.0.exe",
+      "sha256": "d45ec6fa49bd03cec14475edaf376f8094f8267620dc2af1faeaa8f3474ae05d",
+      "notes": "First release with the burn-down/stage-0-governance feature integration: Workshop file-sorter, Mahinay admin page, Templates page, IEE applications panel, DENR mock tab, Hazard Assessment foundation, vocabulary tables + Preferences editor, Workspace.jsx tab split into 9 per-tab files, FlexDateInput, file launcher. Architectural change: data root moved from LOCALAPPDATA to USERPROFILE/Documents/NodOne (one-time migration shim runs at first launch in packaged app only).",
+      "min_supported_version": null
+    },
+    {
       "version": "0.5.0",
       "released_at": "2026-05-07T00:00:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.5.0/NodOne-Setup-v0.5.0.exe",
       "filename": "NodOne-Setup-v0.5.0.exe",
       "sha256": "06db4cdac8d2ff3de91d346faa5d04a732f525b816fae1b6cd598c873f379f4c",
-      "notes": "Flat 2D logo across all surfaces (sidebar tile, favicon, .ico, apple-touch-icon) — matches brand reference. Version display added to Preferences page (About section). Auto-update test target — install over 0.1.4 to verify the upgrade flow.",
+      "notes": "Flat 2D logo across all surfaces (sidebar tile, favicon, .ico, apple-touch-icon) \u00e2\u20ac\u201d matches brand reference. Version display added to Preferences page (About section). Auto-update test target \u00e2\u20ac\u201d install over 0.1.4 to verify the upgrade flow.",
       "min_supported_version": null
     },
     {
@@ -19,5 +28,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.5.0"
+  "latest": "0.7.0"
 }
