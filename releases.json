@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.8.0",
+      "released_at": "2026-05-09T21:47:17Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.0/NodOne-Setup-v0.8.0.exe",
+      "filename": "NodOne-Setup-v0.8.0.exe",
+      "sha256": "d61d9901b94e46d1ef6deb067767ac06176c50aa45902e2d59b04cd6900076ee",
+      "notes": "The v2 overhaul. Ctrl+Z works on every state-changing action; toasts replaced by a persistent Undo strip. Tasks gain subtasks up to 4 levels deep with drag-to-reorder; parent tasks auto-compute status, due date, and progress from children. Files tab is a two-pane layout with editable per-project categories that mirror to disk on rename. Mahinay personal records gain nested categories. Workshop moved out of the sidebar into Preferences with a native folder picker. New Add Issue modal with Type / Upload / Paste tabs auto-extracts stakeholder issues from Transcriber .docx output (49 issues parsed in under a second, zero LLM calls). Templates page rebuilt with a category tree. Public Hearing event kind added. Event status now editable from EventFormModal. Mail-merge replaces the old invitee-merge-source flow.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.7.0",
       "released_at": "2026-05-08T08:49:14Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.7.0/NodOne-Setup-v0.7.0.exe",
@@ -15,7 +24,7 @@
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.5.0/NodOne-Setup-v0.5.0.exe",
       "filename": "NodOne-Setup-v0.5.0.exe",
       "sha256": "06db4cdac8d2ff3de91d346faa5d04a732f525b816fae1b6cd598c873f379f4c",
-      "notes": "Flat 2D logo across all surfaces (sidebar tile, favicon, .ico, apple-touch-icon) \u00e2\u20ac\u201d matches brand reference. Version display added to Preferences page (About section). Auto-update test target \u00e2\u20ac\u201d install over 0.1.4 to verify the upgrade flow.",
+      "notes": "Flat 2D logo across all surfaces (sidebar tile, favicon, .ico, apple-touch-icon) â€” matches brand reference. Version display added to Preferences page (About section). Auto-update test target â€” install over 0.1.4 to verify the upgrade flow.",
       "min_supported_version": null
     },
     {
@@ -28,5 +37,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.7.0"
+  "latest": "0.8.0"
 }
