@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.8.3",
+      "released_at": "2026-05-10T19:30:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.3/NodOne-Setup-v0.8.3.exe",
+      "filename": "NodOne-Setup-v0.8.3.exe",
+      "sha256": "fbe5906ae37b7bd2b2f9e86ce0fb6cee3547d7f7c95b9b51b3f3146d4bf32221",
+      "notes": "De-Gantt-ification. Every Wave 4 feature is intact (subtasks, computed parents, drag-reorder, Ctrl+Z everywhere, GitHub-API auto-update from 0.8.2). What changes is how it looks. Removes the chart-tool chrome that crept in along with the new functionality: progress bars under group titles, bordered cards around lists, ALL-CAPS letterspaced column headers, four-card cockpit on the Dashboard. Replaced with NodOne's own quieter visual language — sentence-case headers, mute2 inline counts, breathing room instead of dividers. The single guiding principle: hierarchy through type, not through chrome.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.8.2",
       "released_at": "2026-05-10T18:35:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.2/NodOne-Setup-v0.8.2.exe",
@@ -46,5 +55,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.8.2"
+  "latest": "0.8.3"
 }
