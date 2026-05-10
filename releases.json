@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.8.4",
+      "released_at": "2026-05-10T20:30:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.4/NodOne-Setup-v0.8.4.exe",
+      "filename": "NodOne-Setup-v0.8.4.exe",
+      "sha256": "cced3d8e648aae7a8e180216b84bf7c121d9e3bb6f114c45b643d4f76a4d3f08",
+      "notes": "Claude Design refit across all five surfaces (Tasks, Checklist, Document Templates, Checklist Templates, Admin). One chrome, one card, one type rhythm. Tasks: bordered card + sentence-case header strip + group rows with X-of-Y count + 72px progress bar + dim status pill + rolled-up due date; right-click context menu (Add subtask / Edit / Delete); subtask depth indent + tree-line connectors; visible drag handle removed (long-press anywhere on a row activates drag). Checklist: section header on the same grid as items, 44px-tall item rows indented 28px under their section, hover-only chevron-down replaces trash. Document Templates: flat hover-bg rows with Template/Last-used header strip; right pane gains TITLE/DESCRIPTION/BODY eyebrows + Variables chips + quiet … menu. Checklist Templates: header strips on both panes, dropped dot bullets, ItemRow inline click-to-edit (no edit-card, no up/down arrows). Admin: populated state flattened (no nested cards). Tokens: card #FFFFFF, line #E8E3D6, lineSoft #EFEBDF, indigo accent #5B4FCF; system sans-serif everywhere. Latent fixes: Templates kindCollapsed state-mutation bug; all template last-used dates routed through formatDate(prefs); dead reorder mutations + arrow/mini button helpers removed.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.8.3",
       "released_at": "2026-05-10T19:30:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.3/NodOne-Setup-v0.8.3.exe",
@@ -55,5 +64,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.8.3"
+  "latest": "0.8.4"
 }
