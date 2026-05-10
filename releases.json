@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.8.1",
+      "released_at": "2026-05-10T17:32:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.1/NodOne-Setup-v0.8.1.exe",
+      "filename": "NodOne-Setup-v0.8.1.exe",
+      "sha256": "f67eb0b08f916d53facfdbea2b7216c2721db94a156ffd7525d8f2fa28e91619",
+      "notes": "Tasks/Checklist polish bundle. Tasks tab: status pills and due dates now align under their column headers (Wave-4 Tree wrapper was collapsing each row's grid). New + Subtask hover action on every leaf row, closing the depth=4 subtask gap. Done-pill colors on parent rows now match the rest of the app. Checklist tab: each checklist now renders as a bordered card with a done/total count and a thin progress bar. Reorder swapped from up/down arrow buttons to drag-handle reorder, undoable via Ctrl+Z. Internal: shared iconButtonStyle helper promoted to design/primitives.jsx.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.8.0",
       "released_at": "2026-05-09T21:47:17Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.0/NodOne-Setup-v0.8.0.exe",
@@ -37,5 +46,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.8.0"
+  "latest": "0.8.1"
 }
