@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.8.2",
+      "released_at": "2026-05-10T18:35:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.2/NodOne-Setup-v0.8.2.exe",
+      "filename": "NodOne-Setup-v0.8.2.exe",
+      "sha256": "a102203b8ea709c1788d87567ffaf4e067081512dbe741adb4e75bd40f78e22e",
+      "notes": "Reliability sweep + 0.8.1 launcher hotfix. Adds the missing nodone_backups_root export that crashed every 0.8.1 install on the post-update boot. Hoists all app.paths imports in launcher.py to module top so missing exports crash at the developer's keyboard, never silently in production. Adds a frontend asset probe at boot that catches blank-window failures with a Win32 message box pointing at launcher.log. Frontend update discovery now queries the GitHub Releases API directly instead of polling a hand-maintained manifest — single source of truth, no second PR per release. Bell popover shows the release notes inline. Backwards-compatible: the old releases.json polling path stays active in 0.8.2 for 0.8.0 instances that haven't upgraded.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.8.0",
       "released_at": "2026-05-09T21:47:17Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.0/NodOne-Setup-v0.8.0.exe",
@@ -37,5 +46,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.8.0"
+  "latest": "0.8.2"
 }
