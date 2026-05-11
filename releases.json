@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.8.5",
+      "released_at": "2026-05-11T18:05:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.5/NodOne-Setup-v0.8.5.exe",
+      "filename": "NodOne-Setup-v0.8.5.exe",
+      "sha256": "c95c19eb39096a170eb238bd36257b67109837cc069df8e668d970f9854d5ccc",
+      "notes": "Undo coverage closes ADR D14 across every form modal, page CRUD, workflow modal, and the DENR/IEE status transitions. Files now obeys folder-as-truth: uploads land in the chosen subfolder on disk, category move physically moves bytes + updates relative_path atomically, category rename cascades to every file, category delete physically migrates files to the default subfolder before deleting the row. Real undo trash/restore for Files / Document Templates / Personal Records via .trash/{uuid}/ staging, with validated restore endpoints. Task rollup: backend exposes is_parent as single source of truth; frontend keys chevron-vs-checkbox, computed status pill, read-only due, strikethrough, toolbar count off that flag. Leaf-parents (task_kind='leaf' with subtasks) finally render correctly. TaskFormModal hides Status+Due when editing a parent. Group delete physically deletes descendants in post-order + audits each. Contacts filters Andrea reported missing: Inbound / Outbound / Waiting reply / Follow-up due, with legacy contact_name fallback so older communications still match. Workshop newly-added folder first-scan bypasses the 30-day cap once, then auto-engages on subsequent scans. Documents tab covers every active workflow kind via _WORKFLOW_MODELS mapping. Visual: Tree-row chrome from dnd-kit neutralized via scoped CSS override; Tasks / Document Templates / Admin now share Checklist Templates' calm hairline-row pattern. Sidebar tagline removed; wordmark vertical-centers with logo. Smaller fixes: confirm dialog body shows for string args; NoteFormModal task picker filters task_kind=='leaf' && !is_parent; vocab PATCH honors parent_id:null; useUpdateCheck no longer refires after available; updater accepts the GitHub Releases path with sentinel + origin check; personal-kinds delete respects referential integrity instead of blanket is_builtin lock.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.8.4",
       "released_at": "2026-05-10T20:30:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.4/NodOne-Setup-v0.8.4.exe",
@@ -64,5 +73,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.8.4"
+  "latest": "0.8.5"
 }
