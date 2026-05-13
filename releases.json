@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.9.0",
+      "released_at": "2026-05-13T15:13:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.9.0/NodOne-Setup-v0.9.0.exe",
+      "filename": "NodOne-Setup-v0.9.0.exe",
+      "sha256": "168a7606745ae3d16913908a3046a853956ea33f8340d27ff420c4df71672c61",
+      "notes": "Document Confidence release. Visual rhythm fixed across Tasks, Document Templates, and Admin (Billing-pattern cream group headers, no progress bars on Tasks). Universal FilePreview component + preview endpoints for files, captures, artifacts, personal records. Per-template card UI on Event and IEE detail pages with preview, generate, replace, and Open in Word actions; generate is fully undoable (artifact + companion Files row + disk file removed in one transaction on Ctrl+Z). New POST /api/iee_applications/{id}/generate-docs with Pydantic payload. Template editor detail panel shows placeholders + version history + restore-this-version. Gantt-compatible export (.gantt v1 schema, ADR-0010) via Tasks toolbar button. Soft-hide for unused built-in personal kinds (is_hidden migration e7f28aa73c16, restore endpoint, Mahinay admin disclosure). Three audits ran the diff before release; six release blockers + four post-audit follow-ups landed; remaining defense-in-depth items tracked honestly in BACKLOG.md. DENR document generation deferred with documented reason.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.8.5",
       "released_at": "2026-05-11T18:05:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.8.5/NodOne-Setup-v0.8.5.exe",
@@ -73,5 +82,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.8.5"
+  "latest": "0.9.0"
 }
