@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.9.2",
+      "released_at": "2026-05-16T22:30:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.9.2/NodOne-Setup-v0.9.2.exe",
+      "filename": "NodOne-Setup-v0.9.2.exe",
+      "sha256": "3dd4030c69f889969f7650a710109ac4e435ea07801d8163b420442cff39a65c",
+      "notes": "Everything Editable. Eleven sub-phases consolidated. No hardcoded 'kinds' that block deletion: _UNCHECKED_VOCAB_KINDS lock retired, every vocab kind deletable, Preferences-scoped ref check for tz/currency/date-format prevents orphaning Andrea's active settings, Pydantic Literal[...] removed from capture/artifact/checklist_template/project_checklist/invitee/synthesis/workflow_step schemas so Andrea-created vocab rows can actually be assigned. NGCP/hazard foundation dropped via Alembic migration b3c1a2d5e7f9 (gate.is_ngcp_variant column, tower table, vocab_hazard_kind, hazard_assessment_per_tower workflow_kind + steps; router and models moved to _deprecated/). Fresh-install crashes fixed: seed.py task kwargs (kind → task_kind), and every new project (seed or API) now gets the 6 canonical project_subfolder rows via create_default_subfolders() — Workshop filing finally works on a fresh install. Root error boundary, Workspace/Calendar/Billing query error UI, update-check console-spam gated behind window.__NODONE_DEBUG_UPDATE__. Tasks: right-click wording fixed (group children are 'Add task' not 'Add subtask'); + Add task modal grew a Kind segmented control (Group/Task/Subtask radiogroup with keyboard nav) + Parent picker. Send to Gantt actually works: dropped HEAD preflight, direct GET → blob → showSaveFilePicker, RFC 5987 filename* preferred so em-dashes survive, date_format and per-task planned_start emit DD/MM/YYYY (matches Gantt's native shape), source_version reads from VERSION file. IEE: multi-photo upload loops the full FileList with batched undo + partial-failure handling, submit_to_denr step propagates to parent status, global dashboard filters soft-deleted projects, step PATCH refuses on cancelled/rejected/completed parents. Files preview missing-on-disk card now also catches 'no file attached'. Hard-delete cascade ORM-walks ProjectSubfolder, FolderIndex, and workflow polymorphic children (WorkflowStep, Capture, Synthesis, Invitee, Artifact, DenrApplicationValue) so action_log captures every row; explicit db.flush() between cascade levels prevents SQLAlchemy reorder from breaking child audit INSERTs; audit.py short-circuits project_id=None on Project hard-delete. Frontend bundle code-split (initial chunk 730 kB → 295 kB, 59% reduction). Schema drift gate cleared: new migration d4e6f8a0b1c3 adds the artifact unique constraint, document_template.template_family_id index, and named files.project_subfolder_id FK that models declared; six models updated to declare composite indexes DB had. alembic check is clean except one documented metadata-display item (vocab_personal_kind.position REAL vs Float — SQLAlchemy maps Float→REAL on SQLite by design). Design coherence: focus rings on form inputs, per-variant Button hover/active states (audit caught and fixed inverted danger active), row hover standardized to tok.lineSoft, unified loading-state convention, all 7 form-modal Cancel buttons variant='ghost', FileExtBadge migrated to tok.fileBadge. Billing global page: 'Overdue' card renamed to 'Outstanding' (no due-date field exists; label now matches what's actually computed). Codex audit ran end-to-end before publish — every essential finding landed.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.9.1",
       "released_at": "2026-05-13T17:55:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.9.1/NodOne-Setup-v0.9.1.exe",
@@ -91,5 +100,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.9.1"
+  "latest": "0.9.2"
 }
