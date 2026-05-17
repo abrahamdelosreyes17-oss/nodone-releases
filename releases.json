@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.9.3",
+      "released_at": "2026-05-17T13:00:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.9.3/NodOne-Setup-v0.9.3.exe",
+      "filename": "NodOne-Setup-v0.9.3.exe",
+      "sha256": "1bc12855df19978410fda489e7c49c842ebee6b24dd14cfc030a75ae3d231b41",
+      "notes": "Hotfix on top of 0.9.2. Single change: launcher safety net so an 'unknown DB revision' state never blocks app boot again. Forward-migrated DB + older installed binary now boots normally (skips migration with a log warning) instead of fatal-dialoging — the in-app auto-update workflow stays intact, no manual reinstall ever needed. Everything from 0.9.2 ships forward unchanged.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.9.2",
       "released_at": "2026-05-16T22:30:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.9.2/NodOne-Setup-v0.9.2.exe",
@@ -100,5 +109,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.9.2"
+  "latest": "0.9.3"
 }
