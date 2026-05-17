@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "1.0.0",
+      "released_at": "2026-05-17T15:00:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v1.0.0/NodOne-Setup-v1.0.0.exe",
+      "filename": "NodOne-Setup-v1.0.0.exe",
+      "sha256": "37955a65c6dabb765bb3d9a3a4b9a6c986cd57f9b34312875c39a6825155da2f",
+      "notes": "First major version. Office preview is now pixel-truthful: opening a .docx / .xlsx / .pptx routes the file through Microsoft Office COM (Word/Excel/PowerPoint), converts to PDF, and renders pages as images via pypdfium2 — fonts, layout, page breaks all match what Word/Excel/PowerPoint draw. The pager shows the real page count (was hardcoded 1 for docx). First open is 1–3 seconds while Office runs; subsequent opens and page-flips are instant. Cache lives at Documents\\NodOne\\runtime\\preview-cache\\<sha>.pdf keyed by (path, mtime_ns, size) — any edit invalidates automatically. LRU-evicts at 200 MB. If Office isn't installed, docx falls back to Mammoth HTML and xlsx to openpyxl JSON; pptx surfaces as 'File type not supported'. v0.9.x visual polish bundled in (cream-everywhere column headers, Tasks Status/Due centered, row-hover standardized to lineSoft). No DB migration — launcher safety net for unknown DB revisions remains in place from v0.9.3.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.9.4",
       "released_at": "2026-05-17T14:30:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.9.4/NodOne-Setup-v0.9.4.exe",
