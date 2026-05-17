@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.9.4",
+      "released_at": "2026-05-17T14:30:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.9.4/NodOne-Setup-v0.9.4.exe",
+      "filename": "NodOne-Setup-v0.9.4.exe",
+      "sha256": "7dfc165b46107ec85b450b32714dbefec9ee0813502ee4e8550e1d0b7de20786",
+      "notes": "Visual polish on top of 0.9.3. Cream is for column-header bands only — Andrea spotted that yesterday's group-rows-cream regression was actually a deeper miss: every list page had its column header fall back to white. Now uniform across Tasks/Contacts/Files/Billing/Checklist workspace tabs and global Projects/Contacts/Checklists/Templates. Data rows (including task group rows) stay plain white; per-section dividers (Billing per-project bands, Meetings per-date bands, Templates per-kind bands, Mahinay per-kind bands) keep their cream — those are sub-headers. Tasks Status + Due columns now center-aligned under their headers; column gap bumped 12→16. BillingTab row hover bgApp→lineSoft (the last v0.9.2-P5 holdout). No backend changes, no migration.",
+      "min_supported_version": null
+    },
+    {
       "version": "0.9.3",
       "released_at": "2026-05-17T13:00:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v0.9.3/NodOne-Setup-v0.9.3.exe",
@@ -109,5 +118,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.9.3"
+  "latest": "0.9.4"
 }
