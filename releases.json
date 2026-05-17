@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "1.0.1",
+      "released_at": "2026-05-17T15:30:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v1.0.1/NodOne-Setup-v1.0.1.exe",
+      "filename": "NodOne-Setup-v1.0.1.exe",
+      "sha256": "647880351f0258d1466564ace42b9ece17e00edbd59cd368babafaa8c173d305",
+      "notes": "Hotfix on top of 1.0.0. Status dropdown is no longer clipped by the next row. Clicking a Pending/Billed/Paid pill in Billing (and the same pattern in Tasks / Events) used to open the dropdown only as a top sliver — the row's overflow:hidden ate the rest. Switched the dropdown to fixed positioning anchored to the trigger's bounding rect so it escapes any ancestor's overflow clip; opens upward when there isn't room below; closes on scroll so it never appears stranded. Single-component change in InlineStatusEditor — every callsite (workspace Tasks, workspace Billing, global Billing, workspace Events) benefits. No backend, no migration.",
+      "min_supported_version": null
+    },
+    {
       "version": "1.0.0",
       "released_at": "2026-05-17T15:00:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v1.0.0/NodOne-Setup-v1.0.0.exe",
