@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.0.0",
+      "released_at": "2026-05-19T12:11:34Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.0/NodOne-Setup-v2.0.0.exe",
+      "filename": "NodOne-Setup-v2.0.0.exe",
+      "sha256": "579706897a9d933d8a5a3fc787184749e916687a27ac61e7182017b3f67840bb",
+      "notes": "NodOne v2.0.0 — Cloud Sync\n\nMajor release adding optional Google + Microsoft cloud sync while preserving NodOne's local-first model.\n\n- Whole-app snapshot backup and restore through Google Drive and Microsoft OneDrive.\n- Separate device-local sync state for DPAPI-protected OAuth tokens, device identity, OAuth sessions, restore flags, and sync baselines.\n- Backup manifests carry metadata only: no OAuth tokens, refresh tokens, PKCE verifiers, or portable device-local identity.\n- Restore safety flow with pre-restore local package, local-only file preflight, strict manifest validation, alembic compatibility checks, rollback paths, and mutation blocking while restore is active.\n- Google Drive uses a visible `NodOne Backups` folder with Picker re-grant for lost-folder recovery; Microsoft uses least-privilege AppFolder storage.\n- Calendar sync for opted-in meetings, tasks with due dates, and workflow events.\n- Contacts sync for opted-in contacts.\n- Email import remains on-demand only: no background mailbox scan, no startup read, no send.\n- Conflict handling for backup snapshots and object sync, including stale-account/account-mismatch handling after cross-device restore.\n- Tombstones for locally deleted synced objects so provider deletes can be pushed later.\n\nSHA-256:\n`579706897a9d933d8a5a3fc787184749e916687a27ac61e7182017b3f67840bb`",
+      "min_supported_version": null
+    },
+    {
       "version": "1.0.1",
       "released_at": "2026-05-17T15:30:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v1.0.1/NodOne-Setup-v1.0.1.exe",
@@ -136,5 +145,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.9.4"
+  "latest": "2.0.0"
 }
