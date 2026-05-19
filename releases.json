@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.0.1",
+      "released_at": "2026-05-19T21:15:52Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.1/NodOne-Setup-v2.0.1.exe",
+      "filename": "NodOne-Setup-v2.0.1.exe",
+      "sha256": "51f6de4ca50111a1c13fa78d3b8afb3d4b1971a471c6584c4aaf018de30e9fe8",
+      "notes": "NodOne v2.0.1 — Google Cloud Sync hotfix\n\nHotfix on top of v2.0.0.\n\n- Packages the Google OAuth desktop client configuration and Picker API key into the Windows installer so Google Connect can open the normal browser sign-in flow instead of failing as unconfigured.\n- Keeps Microsoft Cloud Sync deferred in release builds until the Microsoft Entra app registration is provisioned; Microsoft code remains in place, but the packaged UI disables Microsoft connect honestly instead of showing a broken flow.\n- Improves Cloud Sync error copy so wrapped API errors show the real setup problem instead of a generic \"Connection failed.\"\n- Pins packaging tools and restores the known-good installer build flow; `update-helper.exe`, `NodOne.exe`, and the Inno installer now build cleanly.\n\nSHA-256:\n`51f6de4ca50111a1c13fa78d3b8afb3d4b1971a471c6584c4aaf018de30e9fe8`",
+      "min_supported_version": null
+    },
+    {
       "version": "2.0.0",
       "released_at": "2026-05-19T12:11:34Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.0/NodOne-Setup-v2.0.0.exe",
@@ -145,5 +154,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.0.0"
+  "latest": "2.0.1"
 }
