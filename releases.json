@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.0.3",
+      "released_at": "2026-05-21T01:25:52Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.3/NodOne-Setup-v2.0.3.exe",
+      "filename": "NodOne-Setup-v2.0.3.exe",
+      "sha256": "b009ad4d1bb73866797d8b801e417933fb8818c337e8c065a746b54ceeba1061",
+      "notes": "Google sync repair. Calendar sync now requests the correct Google Calendar permissions for NodOne's dedicated calendar, and Settings shows explicit permission, update, zero-eligible, and failure states instead of silent no-ops. Google backup now uses clear current-data/current-cloud semantics with confirmation before replacing the current cloud backup; older backups remain in history. Calendar adds Month, Week, and Day views while keeping the NodOne UI, plus explicit import from the dedicated Google NodOne calendar. Contacts and Gmail import now surface clear Google-only status and errors. Microsoft sync is deferred until separate real-account QA. Device name now follows Windows hostname changes unless manually renamed.",
+      "min_supported_version": null
+    },
+    {
       "version": "1.0.1",
       "released_at": "2026-05-17T15:30:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v1.0.1/NodOne-Setup-v1.0.1.exe",
@@ -136,5 +145,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "0.9.4"
+  "latest": "2.0.3"
 }
