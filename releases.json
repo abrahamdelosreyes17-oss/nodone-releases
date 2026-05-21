@@ -10,6 +10,33 @@
       "min_supported_version": null
     },
     {
+      "version": "2.0.2",
+      "released_at": "2026-05-20T17:04:28Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.2/NodOne-Setup-v2.0.2.exe",
+      "filename": "NodOne-Setup-v2.0.2.exe",
+      "sha256": "9d9fb3a69fe3c2c0d28e2e4764c671287f8b331f328383a06ce28fc0bd5ab8c1",
+      "notes": "NodOne v2.0.2 — Google Sync Reliability hotfix\n\nHotfix on top of v2.0.1.\n\n- Fixes the Google sign-in retry trap: if the browser is closed without logging in, Settings now has a Cancel / try again path and the backend clears the pending OAuth session immediately.\n- Calendar and Contacts sync runs no longer report success when Google provider work actually failed. Provider failures now mark the run failed with a short, actionable error code.\n- Settings now reports visible sync outcomes for Google backup, calendar, and contacts: synced counts, conflict counts, zero-eligible explanations, or failure reasons.\n- Clarifies v2 Calendar behavior: NodOne syncs opted-in NodOne rows to the dedicated Google calendar named `NodOne`; it does not import an existing primary Google Calendar.\n- Email Import is Google-only in this release, with clearer Gmail search, no-results, missing-permission, and provider-error states. The Settings toggle now tells the user to open a project → Communications → Import from email.\n- Keeps Microsoft sync deferred from active UI until a separate real-account Microsoft QA pass.\n\nSHA-256:\n`9d9fb3a69fe3c2c0d28e2e4764c671287f8b331f328383a06ce28fc0bd5ab8c1`",
+      "min_supported_version": null
+    },
+    {
+      "version": "2.0.1",
+      "released_at": "2026-05-19T21:15:52Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.1/NodOne-Setup-v2.0.1.exe",
+      "filename": "NodOne-Setup-v2.0.1.exe",
+      "sha256": "51f6de4ca50111a1c13fa78d3b8afb3d4b1971a471c6584c4aaf018de30e9fe8",
+      "notes": "NodOne v2.0.1 — Google Cloud Sync hotfix\n\nHotfix on top of v2.0.0.\n\n- Packages the Google OAuth desktop client configuration and Picker API key into the Windows installer so Google Connect can open the normal browser sign-in flow instead of failing as unconfigured.\n- Keeps Microsoft Cloud Sync deferred in release builds until the Microsoft Entra app registration is provisioned; Microsoft code remains in place, but the packaged UI disables Microsoft connect honestly instead of showing a broken flow.\n- Improves Cloud Sync error copy so wrapped API errors show the real setup problem instead of a generic \"Connection failed.\"\n- Pins packaging tools and restores the known-good installer build flow; `update-helper.exe`, `NodOne.exe`, and the Inno installer now build cleanly.\n\nSHA-256:\n`51f6de4ca50111a1c13fa78d3b8afb3d4b1971a471c6584c4aaf018de30e9fe8`",
+      "min_supported_version": null
+    },
+    {
+      "version": "2.0.0",
+      "released_at": "2026-05-19T12:11:34Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.0/NodOne-Setup-v2.0.0.exe",
+      "filename": "NodOne-Setup-v2.0.0.exe",
+      "sha256": "579706897a9d933d8a5a3fc787184749e916687a27ac61e7182017b3f67840bb",
+      "notes": "NodOne v2.0.0 — Cloud Sync\n\nMajor release adding optional Google + Microsoft cloud sync while preserving NodOne's local-first model.\n\n- Whole-app snapshot backup and restore through Google Drive and Microsoft OneDrive.\n- Separate device-local sync state for DPAPI-protected OAuth tokens, device identity, OAuth sessions, restore flags, and sync baselines.\n- Backup manifests carry metadata only: no OAuth tokens, refresh tokens, PKCE verifiers, or portable device-local identity.\n- Restore safety flow with pre-restore local package, local-only file preflight, strict manifest validation, alembic compatibility checks, rollback paths, and mutation blocking while restore is active.\n- Google Drive uses a visible `NodOne Backups` folder with Picker re-grant for lost-folder recovery; Microsoft uses least-privilege AppFolder storage.\n- Calendar sync for opted-in meetings, tasks with due dates, and workflow events.\n- Contacts sync for opted-in contacts.\n- Email import remains on-demand only: no background mailbox scan, no startup read, no send.\n- Conflict handling for backup snapshots and object sync, including stale-account/account-mismatch handling after cross-device restore.\n- Tombstones for locally deleted synced objects so provider deletes can be pushed later.\n\nSHA-256:\n`579706897a9d933d8a5a3fc787184749e916687a27ac61e7182017b3f67840bb`",
+      "min_supported_version": null
+    },
+    {
       "version": "1.0.1",
       "released_at": "2026-05-17T15:30:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v1.0.1/NodOne-Setup-v1.0.1.exe",
