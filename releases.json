@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.0.5",
+      "released_at": "2026-05-23T21:18:59Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.5/NodOne-Setup-v2.0.5.exe",
+      "filename": "NodOne-Setup-v2.0.5.exe",
+      "sha256": "0abd95e0baee2f2a4c887c2c72efd6dcda118248029ece647788ba44d97ff290",
+      "notes": "Stability hotfix. Fixes Google repair wording and Gmail permission guidance, completes workspace Calendar week/day navigation, guards project file Open/Open location paths, keeps Completed Date optional when explicitly cleared, removes Microsoft/Outlook wording from active Google-only sync hints, and tightens Windows-only shortcuts. Includes the v2.0.4 stability fixes for safer Google restore boundaries, Google repair, Program Files updater elevation, managed file names, task dates/status rollups, task/subtask reorder, checklist status interaction, computed project progress, and calendar +N more agenda.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.0.3",
       "released_at": "2026-05-21T01:25:52Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.3/NodOne-Setup-v2.0.3.exe",
@@ -172,5 +181,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.0.3"
+  "latest": "2.0.5"
 }
