@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.1.0",
+      "released_at": "2026-09-18T01:19:26Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.1.0/NodOne-Setup-v2.1.0.exe",
+      "filename": "NodOne-Setup-v2.1.0.exe",
+      "sha256": "2ea0391ec4dde9e1f1a75beb1bb8db646001f20b3d5a3471b5c0b0fa7eb0d72d",
+      "notes": "One app, one feel. Andrea's May-July feedback plus an app-wide consistency pass. No schema change (same DB as v2.0.6). Files: add without copying via native picker or drag-and-drop (register in place or move), Scan folder -> Add all, batch undo. Tasks: global Tasks page (Today / This week / Past due, most recent 30) and capped Dashboard widgets; done/undone within the day fixed. One list look, one menu/modal/drag behaviour, long-press reorder with a visible insertion line, one peso formatter. Data safety: SQLite online-backup API for pre-migration backups; recovery markers for file moves.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.0.6",
       "released_at": "2026-05-23T21:55:29Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.0.6/NodOne-Setup-v2.0.6.exe",
@@ -190,5 +199,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.0.6"
+  "latest": "2.1.0"
 }
