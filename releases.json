@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.1.1",
+      "released_at": "2026-09-18T15:11:07Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.1.1/NodOne-Setup-v2.1.1.exe",
+      "filename": "NodOne-Setup-v2.1.1.exe",
+      "sha256": "2a0ac4cc117e416192ee56bc8b4a15274cfa7f62f8b477d1586a49dd84b13816",
+      "notes": "Her files stay hers. Adding a file from any screen only saves where it is (no copy, no rename, no move); the Files tab shows the project folder itself; Delete hides a file (optional Recycle Bin) and Ctrl+Z undoes everything. New Notes page gathers notes from meetings, tasks, projects, contacts, payments, events and checklist items; notes attach to any of them. Google Repair works from the banner; Start/Completed task columns; Workshop is now Dropbox. Additive database changes only.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.1.0",
       "released_at": "2026-09-18T01:19:26Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.1.0/NodOne-Setup-v2.1.0.exe",
@@ -199,5 +208,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.1.0"
+  "latest": "2.1.1"
 }
