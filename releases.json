@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.2.0",
+      "released_at": "2026-09-19T11:43:55Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.2.0/NodOne-Setup-v2.2.0.exe",
+      "filename": "NodOne-Setup-v2.2.0.exe",
+      "sha256": "adb02435fa5a53a9ff9c565ff58fa14c5f959f25043ed6b1717d217599a8f20e",
+      "notes": "Where things stand. New Review page: a read-only picture of your week or month (completed, overdue, awaiting reply, unpaid, next), all projects or one. Create report saves a Word or PDF status report for your records or for presentation; NodOne writes the summary, the preview shows the real pages, and you choose where to save. Billing gets Open / History views with project and period filters. Fixes: dragging files onto drop boxes, restored Description / Notes labels and Notes tabs, safer delete and undo, a PDF preview crash. No database changes; nothing uses AI or leaves your laptop.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.1.1",
       "released_at": "2026-09-18T15:11:07Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.1.1/NodOne-Setup-v2.1.1.exe",
@@ -208,5 +217,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.1.1"
+  "latest": "2.2.0"
 }
