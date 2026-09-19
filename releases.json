@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.3.0",
+      "released_at": "2026-09-19T17:48:01Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.3.0/NodOne-Setup-v2.3.0.exe",
+      "filename": "NodOne-Setup-v2.3.0.exe",
+      "sha256": "6edeed7709ebd54e4af8a05518c58fcc3219b9e59c27223a72a5c117503a6e91",
+      "notes": "Her folders, her way. Admin categories are now real folders in Documents > NodOne > Personal: create, rename or delete in NodOne and the folder follows; folders and files you add in File Explorer show up in NodOne; delete a category with everything in it and Ctrl+Z brings it back. Dropbox asks whether to also copy a filed file to a folder you choose. Every project has its folder, and renaming a project renames it. Billing cards follow the project or period you pick. Calls can be Inbound or Outbound. The notes box is wider and grows as you type. One small database addition; a backup is made first.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.2.0",
       "released_at": "2026-09-19T11:43:55Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.2.0/NodOne-Setup-v2.2.0.exe",
@@ -217,5 +226,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.2.0"
+  "latest": "2.3.0"
 }
