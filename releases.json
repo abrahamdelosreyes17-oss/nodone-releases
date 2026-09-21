@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.4.0",
+      "released_at": "2026-09-21T13:49:44Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.4.0/NodOne-Setup-v2.4.0.exe",
+      "filename": "NodOne-Setup-v2.4.0.exe",
+      "sha256": "f78ed0943477087b296c7323642cffe34d40ed525dadaf20bb4d8a3f4b389662",
+      "notes": "Her folders, as they are. Folders you make, rename or delete in File Explorer show up the same way in NodOne, including folders inside folders; renaming or moving a file in Explorer keeps its notes. Deleting a folder works even with folders inside it, and Ctrl+Z brings it back. Rename a file in NodOne and Explorer follows. Drag files into the order you want. Ctrl+K finds your files, notes, meetings and payments. The Dashboard shows tasks with no date yet. Meeting times read the same everywhere and calendar sync sends them at the right Manila time. Undoing a delete brings its notes back. One small database addition; a backup is made first.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.3.0",
       "released_at": "2026-09-19T17:48:01Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.3.0/NodOne-Setup-v2.3.0.exe",
@@ -226,5 +235,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.3.0"
+  "latest": "2.4.0"
 }
