@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.5.0",
+      "released_at": "2026-09-25T16:27:29Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.5.0/NodOne-Setup-v2.5.0.exe",
+      "filename": "NodOne-Setup-v2.5.0.exe",
+      "sha256": "11d245f60aabb4111174eb199231fd6e50887581e995c93ed0d6ed873344de88",
+      "notes": "Safe by default. NodOne keeps a daily copy of your database, backs up to Google Drive by itself once a day when backup is on, and never updates your database without a safety copy first. The Google \"needs repair\" message only shows when Google really refuses; calendar sync runs by itself and retries. Overdue counts every overdue task and Outstanding is everything billed and not yet paid. Picking a new file for a DENR field no longer deletes the old one; attaching the Public Scoping checklist no longer creates an empty event; folders and templates can be dragged into your order. Updates are now signed and checked. No database changes.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.4.0",
       "released_at": "2026-09-21T13:49:44Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.4.0/NodOne-Setup-v2.4.0.exe",
@@ -235,5 +244,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.4.0"
+  "latest": "2.5.0"
 }
