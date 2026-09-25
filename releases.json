@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.5.1",
+      "released_at": "2026-09-25T18:34:21Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.5.1/NodOne-Setup-v2.5.1.exe",
+      "filename": "NodOne-Setup-v2.5.1.exe",
+      "sha256": "7e8cac1f6e432788d0f7ee04080d995c06022ae96fff0ec6d788ca0b7e775635",
+      "notes": "Adds Preferences > Developer, a page for NodOne's developer behind a developer key. It can save a copy of the NodOne database as a zip file, so the developer can test with real data when you choose to send it. Nothing is sent anywhere by itself. No database changes.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.5.0",
       "released_at": "2026-09-25T16:27:29Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.5.0/NodOne-Setup-v2.5.0.exe",
@@ -244,5 +253,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.5.0"
+  "latest": "2.5.1"
 }
