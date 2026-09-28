@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.6.1",
+      "released_at": "2026-09-28T13:00:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.6.1/NodOne-Setup-v2.6.1.exe",
+      "filename": "NodOne-Setup-v2.6.1.exe",
+      "sha256": "f09cfa7b3ba8e24dabc435f4ef87c264000c26de87e7799215510ae0fa271664",
+      "notes": "Your data lives where NodOne is installed: the suggested folder keeps it in Documents, any other folder (for example one on D:) keeps it there. Installing in a different folder later moves your data there the next time NodOne opens, checked before anything is removed. Automatic updates never move anything. File names show properly in a narrow Files tab. No database changes.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.6.0",
       "released_at": "2026-09-28T12:10:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.6.0/NodOne-Setup-v2.6.0.exe",
@@ -262,5 +271,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.6.0"
+  "latest": "2.6.1"
 }
