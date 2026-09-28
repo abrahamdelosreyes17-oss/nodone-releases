@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.6.0",
+      "released_at": "2026-09-28T12:10:00Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.6.0/NodOne-Setup-v2.6.0.exe",
+      "filename": "NodOne-Setup-v2.6.0.exe",
+      "sha256": "4801110f690399185cabb1bfd382eb1ca5a0d86ed8b9068a4d9fc885b66f5701",
+      "notes": "Tasks show on their due date, or start date when there is none; done tasks on the day they were finished. New Dashboard: this week, active project cards, next two weeks, to collect. Files renamed in File Explorer are followed, with Find it for missing files; folders inside folders. Dropbox shows subfolders and no longer hides older files. Notes show what they belong to. A Google backup from one computer can replace the data on another, with Put back. A new install on D: keeps its data there. Save a problem report in Preferences > About. No database changes.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.5.1",
       "released_at": "2026-09-25T18:34:21Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.5.1/NodOne-Setup-v2.5.1.exe",
@@ -253,5 +262,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.5.1"
+  "latest": "2.6.0"
 }
