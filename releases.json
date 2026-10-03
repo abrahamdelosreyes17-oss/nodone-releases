@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "2.6.2",
+      "released_at": "2026-10-03T13:43:17Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.6.2/NodOne-Setup-v2.6.2.exe",
+      "filename": "NodOne-Setup-v2.6.2.exe",
+      "sha256": "2c3b8004bd78825da425ebdf80b723e9994edde971b66e84f2f9af55f7e5b248",
+      "notes": "Switching computers: Replace this computer's data now works when a file has a very long name or sits deep in folders, shows what it is doing while it runs, and says what went wrong if it fails. Empty folders come along with a backup. After a Replace, the old copy of this computer's data is cleared once the safety copy holds all of it, and only the two newest safety copies are kept. Review: a project needs attention only when a task is overdue or blocked; unpaid invoices have their own list. No database changes.",
+      "min_supported_version": null
+    },
+    {
       "version": "2.6.1",
       "released_at": "2026-09-28T13:00:00Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v2.6.1/NodOne-Setup-v2.6.1.exe",
@@ -271,5 +280,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "2.6.1"
+  "latest": "2.6.2"
 }
