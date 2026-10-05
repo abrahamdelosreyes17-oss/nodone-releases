@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.0.1",
+      "released_at": "2026-10-05T12:04:36Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.0.1/NodOne-Setup-v3.0.1.exe",
+      "filename": "NodOne-Setup-v3.0.1.exe",
+      "sha256": "b3622e1f365c98791c3f9a45ebf96a3ebd0a364b03a3ca2bf2f303072ea002a6",
+      "notes": "Dashboard: with amounts shown, Outstanding now stays on one line and the four numbers on top are the same height.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.0.0",
       "released_at": "2026-10-04T12:58:37Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.0.0/NodOne-Setup-v3.0.0.exe",
@@ -289,5 +298,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.0.0"
+  "latest": "3.0.1"
 }
