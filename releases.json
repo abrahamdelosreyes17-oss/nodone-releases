@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.1.0",
+      "released_at": "2026-10-10T22:21:07Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.1.0/NodOne-Setup-v3.1.0.exe",
+      "filename": "NodOne-Setup-v3.1.0.exe",
+      "sha256": "91f31caa6d96b54900bad8305533ebd690b197b00fecf317f2478d0da5534736",
+      "notes": "Backup sends each file once and carries on after a dropped connection; copy between computers with a USB drive or shared folder; tables in Notes and checklist remarks; Files in name order; communication threads and messages; drag projects in the sidebar.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.0.1",
       "released_at": "2026-10-05T12:04:36Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.0.1/NodOne-Setup-v3.0.1.exe",
@@ -298,5 +307,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.0.1"
+  "latest": "3.1.0"
 }
