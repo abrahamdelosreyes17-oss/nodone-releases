@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.3.0",
+      "released_at": "2026-10-16T15:04:28Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.3.0/NodOne-Setup-v3.3.0.exe",
+      "filename": "NodOne-Setup-v3.3.0.exe",
+      "sha256": "8ee09e920ae1cb074697b2243dc04d57668e04967e5e8cfcac5e01675c8bb4b1",
+      "notes": "The sidebar pin and your screen choices are remembered every time NodOne opens; the Files folder panel can be widened; dates in a project show the year. Google backups: a Read me in your NodOne Backups folder explains it, you can name each computer, and NodOne tells you when another computer has newer work.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.2.0",
       "released_at": "2026-10-12T01:00:10Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.2.0/NodOne-Setup-v3.2.0.exe",
@@ -334,5 +343,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.2.0"
+  "latest": "3.3.0"
 }
