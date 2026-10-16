@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.3.1",
+      "released_at": "2026-10-16T16:55:49Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.3.1/NodOne-Setup-v3.3.1.exe",
+      "filename": "NodOne-Setup-v3.3.1.exe",
+      "sha256": "008ea5ba1321f401cdde2474e9b7dd19cacc74b53c61144ba82be9d0d466650b",
+      "notes": "Replace this computer's data: the bar says what NodOne is doing at each step, with sizes and the time left. It no longer gives up after 30 minutes, and the safety copy is faster.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.3.0",
       "released_at": "2026-10-16T15:04:28Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.3.0/NodOne-Setup-v3.3.0.exe",
