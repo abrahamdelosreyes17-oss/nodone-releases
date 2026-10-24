@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.4.2",
+      "released_at": "2026-10-24T23:35:59Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.2/NodOne-Setup-v3.4.2.exe",
+      "filename": "NodOne-Setup-v3.4.2.exe",
+      "sha256": "4769de4d184dfd59278e171637f9dbf508ef6b74a7f4fd9ced08517f7126c18d",
+      "notes": "Plan my day with Tala. Today brings over yesterday when you choose. Notes tables. If NodOne stops answering it records why and offers Reload.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.4.1",
       "released_at": "2026-10-24T09:03:53Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.1/NodOne-Setup-v3.4.1.exe",
@@ -370,5 +379,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.4.1"
+  "latest": "3.4.2"
 }
