@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.4.0",
+      "released_at": "2026-10-24T08:34:14Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.0/NodOne-Setup-v3.4.0.exe",
+      "filename": "NodOne-Setup-v3.4.0.exe",
+      "sha256": "7feb6840af849e06c6e387fc8739bb8303bbc13af99b732b130e49b77906321a",
+      "notes": "Tala, the assistant, inside NodOne. A Today page, Notebook notes, billing terms, richer notes, and rename boxes that show the whole name.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.3.1",
       "released_at": "2026-10-16T16:55:49Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.3.1/NodOne-Setup-v3.3.1.exe",
@@ -352,5 +361,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.3.1"
+  "latest": "3.4.0"
 }
