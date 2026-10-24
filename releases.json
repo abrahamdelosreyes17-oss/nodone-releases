@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.4.1",
+      "released_at": "2026-10-24T09:03:53Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.1/NodOne-Setup-v3.4.1.exe",
+      "filename": "NodOne-Setup-v3.4.1.exe",
+      "sha256": "127b6ee6f3b3579075ed4c9748ef4082e8da287aeaba0825769425610fcb622a",
+      "notes": "NodOne updates where it is installed, Program Files included. Brings everything in 3.4.0: Tala, a Today page, Notebook notes, billing terms and richer notes.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.4.0",
       "released_at": "2026-10-24T08:34:14Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.0/NodOne-Setup-v3.4.0.exe",
@@ -361,5 +370,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.4.0"
+  "latest": "3.4.1"
 }
