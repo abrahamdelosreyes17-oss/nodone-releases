@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.4.3",
+      "released_at": "2026-10-25T15:02:20Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.3/NodOne-Setup-v3.4.3.exe",
+      "filename": "NodOne-Setup-v3.4.3.exe",
+      "sha256": "7627e4470d789fcb56c6c2127cc714aa4ccd899f9a9074c93cad8730f2d775a8",
+      "notes": "Long template names stay readable. The scrollbar shows only while you scroll. The undo strip no longer covers menus.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.4.2",
       "released_at": "2026-10-24T23:35:59Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.2/NodOne-Setup-v3.4.2.exe",
@@ -379,5 +388,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.4.2"
+  "latest": "3.4.3"
 }
