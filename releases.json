@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.4.4",
+      "released_at": "2026-10-30T20:56:11Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.4/NodOne-Setup-v3.4.4.exe",
+      "filename": "NodOne-Setup-v3.4.4.exe",
+      "sha256": "b1e2a48bd6dab2a80a3b8303d7c13373051f3c7a668d74e4cc7f2fcebafe1e17",
+      "notes": "Settings can send a request. Upload files of any size your disk has room for. Big PDFs open faster.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.4.3",
       "released_at": "2026-10-25T15:02:20Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.3/NodOne-Setup-v3.4.3.exe",
@@ -388,5 +397,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.4.3"
+  "latest": "3.4.4"
 }
