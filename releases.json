@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.4.6",
+      "released_at": "2026-10-31T08:20:13Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.6/NodOne-Setup-v3.4.6.exe",
+      "filename": "NodOne-Setup-v3.4.6.exe",
+      "sha256": "2534e6c5b7fa03dfda20bc79dd4aaa29980f880e2f8626e78df287311203793c",
+      "notes": "Old notes can be made into full notes, and Notebook notes can move to a project.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.4.5",
       "released_at": "2026-10-31T07:35:26Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.5/NodOne-Setup-v3.4.5.exe",
@@ -406,5 +415,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.4.5"
+  "latest": "3.4.6"
 }
