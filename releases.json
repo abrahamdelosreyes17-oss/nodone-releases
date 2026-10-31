@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "3.4.5",
+      "released_at": "2026-10-31T07:35:26Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.5/NodOne-Setup-v3.4.5.exe",
+      "filename": "NodOne-Setup-v3.4.5.exe",
+      "sha256": "835904a8ab52b3effd20b40455cc245abf29eee840da64637c981bfbfe97f4f3",
+      "notes": "Problem reports now know which laptop they came from.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.4.4",
       "released_at": "2026-10-30T20:56:11Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.4/NodOne-Setup-v3.4.4.exe",
@@ -397,5 +406,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.4.4"
+  "latest": "3.4.5"
 }
