@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "4.0.0",
+      "released_at": "2026-11-02T11:16:45Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.0/NodOne-Setup-v4.0.0.exe",
+      "filename": "NodOne-Setup-v4.0.0.exe",
+      "sha256": "53ee85c8c04dfadc0fa7e77861e68d57706420defa6e64295088641f4d2dba2b",
+      "notes": "Billing by percent, repeating tasks, the ECC register, Reference, two pages side by side, a new look for Tasks and Checklist, and tasks linked to Gantt.",
+      "min_supported_version": null
+    },
+    {
       "version": "3.4.6",
       "released_at": "2026-10-31T08:20:13Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v3.4.6/NodOne-Setup-v3.4.6.exe",
@@ -415,5 +424,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "3.4.6"
+  "latest": "4.0.0"
 }
