@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "4.0.1",
+      "released_at": "2026-11-02T11:36:52Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.1/NodOne-Setup-v4.0.1.exe",
+      "filename": "NodOne-Setup-v4.0.1.exe",
+      "sha256": "9e42c6c38ada78c21533336d118175430be604f45942b40a20d224620f6a58c1",
+      "notes": "Finished tasks stay in their group, Completed has its own column again, and dates sit in the middle of their column.",
+      "min_supported_version": null
+    },
+    {
       "version": "4.0.0",
       "released_at": "2026-11-02T11:16:45Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.0/NodOne-Setup-v4.0.0.exe",
@@ -424,5 +433,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "4.0.0"
+  "latest": "4.0.1"
 }
