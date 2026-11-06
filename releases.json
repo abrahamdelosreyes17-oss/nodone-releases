@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "4.0.3",
+      "released_at": "2026-11-06T23:27:34Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.3/NodOne-Setup-v4.0.3.exe",
+      "filename": "NodOne-Setup-v4.0.3.exe",
+      "sha256": "854f20013dd8e2757532948c2b7c990e231d89f654e9b07af3bec605fcf580c9",
+      "notes": "Communications read like an email thread, with one row for Add a message and Follow up.",
+      "min_supported_version": null
+    },
+    {
       "version": "4.0.2",
       "released_at": "2026-11-06T19:45:09Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.2/NodOne-Setup-v4.0.2.exe",
@@ -442,5 +451,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "4.0.2"
+  "latest": "4.0.3"
 }
