@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "4.0.2",
+      "released_at": "2026-11-06T19:45:09Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.2/NodOne-Setup-v4.0.2.exe",
+      "filename": "NodOne-Setup-v4.0.2.exe",
+      "sha256": "69f1403facb5a469d3f8cbb23a521ff74d338388142aec48e5a8a894c83d3ca1",
+      "notes": "Bill on dates, follow-ups that keep their history, messages inside a communication, bullets in notes, and NodOne docks beside Chrome.",
+      "min_supported_version": null
+    },
+    {
       "version": "4.0.1",
       "released_at": "2026-11-02T11:36:52Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.1/NodOne-Setup-v4.0.1.exe",
@@ -433,5 +442,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "4.0.1"
+  "latest": "4.0.2"
 }
