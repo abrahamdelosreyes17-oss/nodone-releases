@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "4.0.6",
+      "released_at": "2026-11-07T12:45:08Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.6/NodOne-Setup-v4.0.6.exe",
+      "filename": "NodOne-Setup-v4.0.6.exe",
+      "sha256": "87e7a972af044ed04ae19e8f8a911395133aec0a91437275aa51c9fc8c3f98c1",
+      "notes": "Updates download through antivirus programs that check secure websites.",
+      "min_supported_version": null
+    },
+    {
       "version": "4.0.5",
       "released_at": "2026-11-07T09:41:43Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.5/NodOne-Setup-v4.0.5.exe",
@@ -469,5 +478,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "4.0.5"
+  "latest": "4.0.6"
 }
