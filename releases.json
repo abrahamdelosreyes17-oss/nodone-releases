@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "4.0.7",
+      "released_at": "2026-11-07T16:23:03Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.7/NodOne-Setup-v4.0.7.exe",
+      "filename": "NodOne-Setup-v4.0.7.exe",
+      "sha256": "0fe505a35aed930e2c23b7adf2e301030a49a15a5ce79a6c65d29ae9ae0c1eb6",
+      "notes": "Repeating tasks show on their day; follow-ups in the calendar and under Late.",
+      "min_supported_version": null
+    },
+    {
       "version": "4.0.6",
       "released_at": "2026-11-07T12:45:08Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.6/NodOne-Setup-v4.0.6.exe",
@@ -478,5 +487,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "4.0.6"
+  "latest": "4.0.7"
 }
