@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "4.0.5",
+      "released_at": "2026-11-07T09:41:43Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.5/NodOne-Setup-v4.0.5.exe",
+      "filename": "NodOne-Setup-v4.0.5.exe",
+      "sha256": "768f8361da26d0c0e23ecbc1b7a215b965c543ba6dd05f12ffedb637fbd29259",
+      "notes": "Settings is back at the right end of the sidebar, after the bell and Apps.",
+      "min_supported_version": null
+    },
+    {
       "version": "4.0.4",
       "released_at": "2026-11-07T00:15:19Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.4/NodOne-Setup-v4.0.4.exe",
@@ -460,5 +469,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "4.0.4"
+  "latest": "4.0.5"
 }
