@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "4.0.4",
+      "released_at": "2026-11-07T00:15:19Z",
+      "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.4/NodOne-Setup-v4.0.4.exe",
+      "filename": "NodOne-Setup-v4.0.4.exe",
+      "sha256": "b225b2c8b4c2f1010527091ae0e0f091d017726f2ca5431c4aa4bcc73985b40a",
+      "notes": "Sidebar: Projects and Records each open and close on their own.",
+      "min_supported_version": null
+    },
+    {
       "version": "4.0.3",
       "released_at": "2026-11-06T23:27:34Z",
       "download_url": "https://github.com/abrahamdelosreyes17-oss/nodone-releases/releases/download/v4.0.3/NodOne-Setup-v4.0.3.exe",
@@ -451,5 +460,5 @@
       "min_supported_version": null
     }
   ],
-  "latest": "4.0.3"
+  "latest": "4.0.4"
 }
